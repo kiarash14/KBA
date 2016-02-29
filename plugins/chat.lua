@@ -23,13 +23,13 @@ end
 if msg.text == "Zac" then
 	return "Nagaeedim"
 end
-if msg.text == "FIGHTER" then
-	return "F🔱I🔱G🔱H🔱T🔱E🔱R"
+if msg.text == "Bumper" then
+	return "B🔱U🔱M🔱P🔱E🔱R"
 end
-if msg.text == "fighter" then
+if msg.text == "jkhasd" then
 	return "hoooon"
 end
-if msg.text == "fighter" then
+if msg.text == "BUMPER" then
 	return "ble"
 end
 if msg.text == "bot" then
@@ -62,10 +62,10 @@ end
 if msg.text == "خدافظ" then
 	return "Bye Bye"
 end
-if msg.text == "بهراد" then
-	return "بله"
+if msg.text == "sudo" then
+	return "@kiarash_gh14"
 end
-if msg.text == "بهراد" then
+if msg.text == "kiarash" then
 	return "چیکارش داری
 end
 end
@@ -78,17 +78,17 @@ return {
 		"^[Zz]ac$",
 		"^سلام$",
 		"^[Bb]ot$",
-		"^[Uu]mbrella$",
+		"^[Bb]umper$",
 		"^[Bb]ye$",
 		"^?$",
 		"^[Ss]alam$",
-		"^بهراد$",
-		"^بهراد$",
+		"^sudo$",
+		"^kiarash$",
 		"^خدافظ$",
 		"^بای$",
 		"^[Ss]lm$",
-		"^FIGHTER$",
-		"^[Ff]ighter$",
+		"^Bumper$",
+		"^[Bb]umper$",
 		}, 
 	run = run,
     --privileged = true,

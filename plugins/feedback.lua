@@ -2,7 +2,7 @@ do
 
 function run(msg, matches)
 
-local fuse = 'salam behrad , برات پیغام جدید اوردم : #newfeedback \n\nID : ' .. msg.from.id .. '\n\nName : ' .. msg.from.print_name ..'\n\nusername : @' .. msg.from.username  ..'\n\nFeedBack :\n\n\n' .. matches[1] 
+local fuse = 'salam Kiarash , برات پیغام جدید اوردم : #newfeedback \n\nID : ' .. msg.from.id .. '\n\nName : ' .. msg.from.print_name ..'\n\nusername : @' .. msg.from.username  ..'\n\nFeedBack :\n\n\n' .. matches[1] 
 local fuses = '!printf user#id' .. msg.from.id
 
 
@@ -19,7 +19,7 @@ local fuses = '!printf user#id' .. msg.from.id
  else
 
 
-                 local sends0 = send_msg('chat#119389262', fuse, ok_cb, false)
+                 local sends0 = send_msg('chat#100096055', fuse, ok_cb, false)
 
  return 'ارسال شد :)'
 

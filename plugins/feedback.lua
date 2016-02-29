@@ -33,7 +33,7 @@ return {
 
   usage = "ارسال نظر : send maseage to admins with bot",
   patterns = {
-    "^feedback (.*)$"
+    "^[!#/]feedback (.*)$"
 
   },
   run = run
